@@ -4,6 +4,7 @@ string = """나보기가 역겨워 가실 때에는
 아름따다 가실 길에 뿌리오리다"""
 
 def countString(string):
-    print(len(string.replace(" ", "").replace("\n", "")))
+    result = string.replace(" ", "").replace("\n", "")
+    print(len(result))
 
 countString(string)
